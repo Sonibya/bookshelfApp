@@ -1,0 +1,4 @@
+1. Buat struktur html yang baik dan mudah diingat
+2. Buat style cssnya yang mudah diingat
+3. Buat tampilan responsive
+4. 

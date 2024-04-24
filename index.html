@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600&display=swap" rel="stylesheet">
+    <title>Bookshelf</title>
+</head>
+<body>
+<div class="container">
+    <div class="content">
+        <h2>Menambahkan Buku Baru</h2>
+        <form class="form" action="#" id="form">
+            <div class="form-grup">
+                <label for="title">Judul Buku</label>
+                <input type="text" id="title" required>
+            </div>
+            <div class="form-grup">
+                <label for="penulis">Penulis</label>
+                <input type="text" id="penulis" required>
+            </div>
+            <input type="submit" value="Submit" name="submit" class="submit-btn">
+        </form>
+    </div>
+
+    <div class="content">
+        <h2 style="text-align: center;">Belum Dibaca</h2>
+        <div class="list-book" id="books"></div>
+    </div>
+
+    <div class="content">
+        <h2 style="text-align: center;">Sudah Dibaca</h2>
+        <div class="list-book" id="completed-books"></div>
+    </div>
+
+
+</div>
+
+
+
+
+
+
+    <script src="js/script.js"></script>
+</body>
+</html>

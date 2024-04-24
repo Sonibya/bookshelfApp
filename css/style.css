@@ -1,0 +1,134 @@
+*{
+    padding: 0;
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    border: 1px solid red;
+}
+
+.content{
+    width: 60%;
+    margin: 5%;
+    background-color: #3E3232;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.child-content{
+    background-color: #3E3232;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+input{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #7E6363;
+    border-radius: 5px;
+    margin: 10px 0px;
+    border: none;
+}
+
+
+
+#book-list-table{
+    /* border: 1px solid yellow; */
+    width:100%;
+
+}
+
+
+#book-list-table th{
+    color:white; 
+    background-color: #7E6363;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+th{
+    /* border: 1px solid white; */
+}
+
+#book-list-data td {
+    /* border :1px solid white; */
+    text-align: center;
+    color: white;
+    background-color: #5e4747;
+
+}
+
+#destroy-data{
+    color: black;
+    background-color: yellow;
+}
+
+.item {
+    border-radius: 16px;
+    margin-top: 16px;
+    padding: 12px 24px 12px 24px;
+    background: #7e6363;
+    display: flex;
+    align-items: center;
+
+}
+
+.inner{
+    width: 100%;
+}
+.item > .inner h2 {
+    margin-bottom: unset;
+}
+
+.item > .inner p {
+    margin-top: 5px;
+}
+#books{
+    /* background-color: black; */
+}
+
+
+/* button */
+.undo-button{
+    width: 40px;
+    height: 40px;
+    background: url('../bahan/left.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: auto;
+    cursor: pointer;
+    border: none;
+}
+
+
+.trash-button {
+    width: 40px;
+    height: 40px;
+    background: url('../bahan/trash.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 16px;
+    cursor: pointer;
+    border: none;
+}
+
+.check-button{
+    width: 40px;
+    height: 40px;
+
+    background: url('../bahan/checkbox.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 16px;
+    cursor: pointer;
+    border: none;
+}
